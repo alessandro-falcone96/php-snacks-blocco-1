@@ -23,7 +23,7 @@
 
 
   // controllo se chiocciola è presente una sola volta
-  if (((strpos($mail, "@")) !== false) & ((substr_count($mail, "@")) == 1 )) { 
+  if (((strpos($mail, "@")) !== false) && ((substr_count($mail, "@")) == 1 )) { 
     // echo "@ confermata ";
 
     //  controllo se dalla chiocciola in poi, un punto è presente
